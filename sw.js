@@ -8,14 +8,15 @@ const CACHE_NAME = 'food-exchange-planner-v1';
 // resources that are essential for offline functionality, be sure to
 // include them here.
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/app.js',
-  '/manifest.json',
-  '/food_exchange_dataset.json',
-  '/images/icon-192.png',
-  '/images/icon-512.png'
+  // Use relative paths here so that the service worker caches files correctly
+  // when deployed on GitHub Pages (which serves content from a sub-path).
+  'index.html',
+  'style.css',
+  'app.js',
+  'manifest.json',
+  'food_exchange_dataset.json',
+  'images/icon-192.png',
+  'images/icon-512.png'
 ];
 
 // During the installation phase, open a cache and preload the

@@ -3,6 +3,7 @@
   "short_name": "FoodPlanner",
   "description": "Plan meals using food exchange tables and track macros.",
   "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#2196f3",
