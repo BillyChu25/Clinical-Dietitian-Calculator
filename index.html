@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Exchange Planner</title>
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <!-- Theme color for address bar -->
+    <meta name="theme-color" content="#2196f3" />
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Food Exchange Planner</h1>
+      <p>Select foods for each daypart and track your macros.</p>
+    </header>
+    <main>
+      <button id="addRowBtn">Add Item</button>
+      <table id="planTable">
+        <thead>
+          <tr>
+            <th>Daypart</th>
+            <th>Macro</th>
+            <th>Choice</th>
+            <th>Portion</th>
+            <th>Energy (kcal)</th>
+            <th>Protein (g)</th>
+            <th>Fat (g)</th>
+          </tr>
+        </thead>
+        <tbody id="planBody"></tbody>
+        <tfoot>
+          <tr class="totals-row">
+            <td colspan="4">TOTAL</td>
+            <td id="totalEnergy">0</td>
+            <td id="totalProtein">0</td>
+            <td id="totalFat">0</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <!-- Main application script -->
+    <script src="app.js"></script>
+  </body>
+</html>

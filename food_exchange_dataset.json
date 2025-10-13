@@ -1,0 +1,1412 @@
+[
+  {
+    "id": 1,
+    "name_en": "Skim milk powder",
+    "name_cn": "脫脂奶粉",
+    "macro": "P",
+    "serving": "20g",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 2,
+    "name_en": "Low-fat milk",
+    "name_cn": "低脂肪牛奶",
+    "macro": "P",
+    "serving": "240ml",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 3,
+    "name_en": "Fresh milk",
+    "name_cn": "鮮奶",
+    "macro": "P",
+    "serving": "240ml",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 4,
+    "name_en": "Whole milk powder",
+    "name_cn": "全脂奶粉",
+    "macro": "P",
+    "serving": "25g",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 5,
+    "name_en": "Soy milk",
+    "name_cn": "豆漿",
+    "macro": "P",
+    "serving": "240ml",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 6,
+    "name_en": "Evaporated milk",
+    "name_cn": "淡奶",
+    "macro": "P",
+    "serving": "90ml",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 7,
+    "name_en": "Plain yoghurt",
+    "name_cn": "純味酸乳酪",
+    "macro": "P",
+    "serving": "160ml",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 8,
+    "name_en": "Soy milk powder",
+    "name_cn": "豆奶粉",
+    "macro": "P",
+    "serving": "20g",
+    "energy": 76,
+    "protein": 7,
+    "fat": 0
+  },
+  {
+    "id": 9,
+    "name_en": "Rice (uncooked)",
+    "name_cn": "米",
+    "macro": "CHO",
+    "serving": "12g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 10,
+    "name_en": "Rice (cooked)",
+    "name_cn": "飯",
+    "macro": "CHO",
+    "serving": "30g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 11,
+    "name_en": "Glutinous rice",
+    "name_cn": "糯飯",
+    "macro": "CHO",
+    "serving": "75g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 12,
+    "name_en": "Congee (porridge)",
+    "name_cn": "粥",
+    "macro": "CHO",
+    "serving": "120g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 13,
+    "name_en": "Chaozhou congee",
+    "name_cn": "潮州粥",
+    "macro": "CHO",
+    "serving": "75g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 14,
+    "name_en": "Rice vermicelli (raw)",
+    "name_cn": "米粉(生)",
+    "macro": "CHO",
+    "serving": "12g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 15,
+    "name_en": "Rice vermicelli (cooked)",
+    "name_cn": "米粉(熟)",
+    "macro": "CHO",
+    "serving": "35g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 16,
+    "name_en": "Macaroni (raw)",
+    "name_cn": "通粉(生)",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 17,
+    "name_en": "Macaroni (cooked)",
+    "name_cn": "通粉(熟)",
+    "macro": "CHO",
+    "serving": "55g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 18,
+    "name_en": "Spaghetti (raw)",
+    "name_cn": "意大利粉(生)",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 19,
+    "name_en": "Spaghetti (cooked)",
+    "name_cn": "意大利粉(熟)",
+    "macro": "CHO",
+    "serving": "30g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 20,
+    "name_en": "Flat rice noodles (raw)",
+    "name_cn": "河粉(生)",
+    "macro": "CHO",
+    "serving": "20g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 21,
+    "name_en": "Flat rice noodles (cooked)",
+    "name_cn": "河粉(熟)",
+    "macro": "CHO",
+    "serving": "35g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 22,
+    "name_en": "Shanghai noodles (cooked)",
+    "name_cn": "上海麵(熟)",
+    "macro": "CHO",
+    "serving": "50g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 23,
+    "name_en": "Egg noodles",
+    "name_cn": "蛋麵",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 24,
+    "name_en": "Sandwich bread",
+    "name_cn": "麵包(三文治)",
+    "macro": "CHO",
+    "serving": "20g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 25,
+    "name_en": "Wheat bread",
+    "name_cn": "麥包",
+    "macro": "CHO",
+    "serving": "20g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 26,
+    "name_en": "Life bread (provincial)",
+    "name_cn": "生命麵包",
+    "macro": "CHO",
+    "serving": "20g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 27,
+    "name_en": "Soft bun",
+    "name_cn": "豬仔包",
+    "macro": "CHO",
+    "serving": "20g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 28,
+    "name_en": "Crackers",
+    "name_cn": "克力架",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 29,
+    "name_en": "Salted soda biscuits",
+    "name_cn": "奶鹽梳打餅",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 30,
+    "name_en": "Sesame soda biscuits",
+    "name_cn": "芝麻梳打餅",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 31,
+    "name_en": "High-fibre wheat crackers (Provita)",
+    "name_cn": "高纖維麥餅乾",
+    "macro": "CHO",
+    "serving": "18g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 32,
+    "name_en": "Digestive biscuit",
+    "name_cn": "消化餅",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 33,
+    "name_en": "Marie biscuit",
+    "name_cn": "馬利餅",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 34,
+    "name_en": "Oatmeal (raw)",
+    "name_cn": "麥皮(生)",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 35,
+    "name_en": "Oatmeal (cooked)",
+    "name_cn": "麥皮(熟)",
+    "macro": "CHO",
+    "serving": "150g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 36,
+    "name_en": "Cornflakes",
+    "name_cn": "早餐粟米片",
+    "macro": "CHO",
+    "serving": "12g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 37,
+    "name_en": "All Bran cereal",
+    "name_cn": "All Bran 全麥維",
+    "macro": "CHO",
+    "serving": "13g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 38,
+    "name_en": "Weetabix",
+    "name_cn": "Weetabix 維他麥",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 39,
+    "name_en": "Shredded Wheat",
+    "name_cn": "Shredded Wheat",
+    "macro": "CHO",
+    "serving": "10g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 40,
+    "name_en": "Rice Krispies",
+    "name_cn": "Rice Krispies (什卜米)",
+    "macro": "CHO",
+    "serving": "12g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 41,
+    "name_en": "Fresh chestnuts (shelled)",
+    "name_cn": "鮮栗子",
+    "macro": "CHO",
+    "serving": "22g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 42,
+    "name_en": "Dried lotus seeds",
+    "name_cn": "乾蓮子",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 43,
+    "name_en": "Split horse beans",
+    "name_cn": "馬豆(開邊)",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 44,
+    "name_en": "Red or green beans",
+    "name_cn": "紅/綠豆",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 45,
+    "name_en": "Vermicelli (dry)",
+    "name_cn": "粉絲",
+    "macro": "CHO",
+    "serving": "12g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 46,
+    "name_en": "Dried green peas",
+    "name_cn": "青豆乾",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 47,
+    "name_en": "Green peas",
+    "name_cn": "青豆",
+    "macro": "CHO",
+    "serving": "30g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 48,
+    "name_en": "Black beans",
+    "name_cn": "黑豆",
+    "macro": "CHO",
+    "serving": "30g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 49,
+    "name_en": "Baked beans in tomato sauce",
+    "name_cn": "茄汁豆",
+    "macro": "CHO",
+    "serving": "100g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 50,
+    "name_en": "Baked potato (peeled)",
+    "name_cn": "烤薯仔(去皮)",
+    "macro": "CHO",
+    "serving": "60g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 51,
+    "name_en": "Pumpkin (raw)",
+    "name_cn": "番瓜",
+    "macro": "CHO",
+    "serving": "150g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 52,
+    "name_en": "Sweet potato (yellow flesh)",
+    "name_cn": "番薯(黃肉)",
+    "macro": "CHO",
+    "serving": "40g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 53,
+    "name_en": "Taro",
+    "name_cn": "芋頭",
+    "macro": "CHO",
+    "serving": "50g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 54,
+    "name_en": "Carrot",
+    "name_cn": "紅蘿蔔",
+    "macro": "CHO",
+    "serving": "120g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 55,
+    "name_en": "Cooked snow peas",
+    "name_cn": "熟雪青豆",
+    "macro": "CHO",
+    "serving": "85g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 56,
+    "name_en": "Cooked corn kernels",
+    "name_cn": "熟粟粒",
+    "macro": "CHO",
+    "serving": "40g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 57,
+    "name_en": "Raw corn kernels",
+    "name_cn": "生粟粒",
+    "macro": "CHO",
+    "serving": "35g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 58,
+    "name_en": "Arrowhead",
+    "name_cn": "慈菇",
+    "macro": "CHO",
+    "serving": "45g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 59,
+    "name_en": "Corn on cob",
+    "name_cn": "粟米包",
+    "macro": "CHO",
+    "serving": "90g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 60,
+    "name_en": "Lotus root",
+    "name_cn": "蓮藕",
+    "macro": "CHO",
+    "serving": "85g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 61,
+    "name_en": "Water chestnut",
+    "name_cn": "馬蹄",
+    "macro": "CHO",
+    "serving": "60g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 62,
+    "name_en": "Canned water chestnut",
+    "name_cn": "馬蹄(罐頭)",
+    "macro": "CHO",
+    "serving": "76g",
+    "energy": 45,
+    "protein": 1,
+    "fat": 0
+  },
+  {
+    "id": 63,
+    "name_en": "Plum",
+    "name_cn": "布林",
+    "macro": "CHO",
+    "serving": "50g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 64,
+    "name_en": "Pomelo",
+    "name_cn": "沙田柚",
+    "macro": "CHO",
+    "serving": "200g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 65,
+    "name_en": "Strawberries",
+    "name_cn": "士多啤梨",
+    "macro": "CHO",
+    "serving": "120g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 66,
+    "name_en": "Lychee",
+    "name_cn": "荔枝",
+    "macro": "CHO",
+    "serving": "60g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 67,
+    "name_en": "Kiwi fruit",
+    "name_cn": "奇異果",
+    "macro": "CHO",
+    "serving": "90g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 68,
+    "name_en": "Apple",
+    "name_cn": "蘋果",
+    "macro": "CHO",
+    "serving": "100g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 69,
+    "name_en": "Banana",
+    "name_cn": "香蕉",
+    "macro": "CHO",
+    "serving": "60g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 70,
+    "name_en": "King banana",
+    "name_cn": "皇帝蕉",
+    "macro": "CHO",
+    "serving": "85g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 71,
+    "name_en": "Starfruit",
+    "name_cn": "楊桃",
+    "macro": "CHO",
+    "serving": "120g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 72,
+    "name_en": "Guava",
+    "name_cn": "番石榴",
+    "macro": "CHO",
+    "serving": "65g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 73,
+    "name_en": "Mango",
+    "name_cn": "杧果",
+    "macro": "CHO",
+    "serving": "140g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 74,
+    "name_en": "Longan",
+    "name_cn": "龍眼",
+    "macro": "CHO",
+    "serving": "115g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 75,
+    "name_en": "Chinese olive",
+    "name_cn": "橄欖",
+    "macro": "CHO",
+    "serving": "23g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 76,
+    "name_en": "Plantain",
+    "name_cn": "大蕉",
+    "macro": "CHO",
+    "serving": "40g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 77,
+    "name_en": "Cherries",
+    "name_cn": "車厘子",
+    "macro": "CHO",
+    "serving": "60g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 78,
+    "name_en": "Grapes",
+    "name_cn": "提子",
+    "macro": "CHO",
+    "serving": "65g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 79,
+    "name_en": "Grapefruit",
+    "name_cn": "西柚",
+    "macro": "CHO",
+    "serving": "95g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 80,
+    "name_en": "Mandarin",
+    "name_cn": "柑",
+    "macro": "CHO",
+    "serving": "105g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 81,
+    "name_en": "Watermelon",
+    "name_cn": "西瓜",
+    "macro": "CHO",
+    "serving": "220g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 82,
+    "name_en": "Papaya",
+    "name_cn": "木瓜",
+    "macro": "CHO",
+    "serving": "120g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 83,
+    "name_en": "Peach",
+    "name_cn": "桃",
+    "macro": "CHO",
+    "serving": "90g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 84,
+    "name_en": "Pear",
+    "name_cn": "梨",
+    "macro": "CHO",
+    "serving": "110g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 85,
+    "name_en": "Persimmon",
+    "name_cn": "紅柿",
+    "macro": "CHO",
+    "serving": "70g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 86,
+    "name_en": "Pineapple",
+    "name_cn": "菠蘿蕪",
+    "macro": "CHO",
+    "serving": "85g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 87,
+    "name_en": "Fresh orange juice",
+    "name_cn": "鮮橙汁",
+    "macro": "CHO",
+    "serving": "120ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 88,
+    "name_en": "Canned apple juice",
+    "name_cn": "蘋果汁(罐頭)",
+    "macro": "CHO",
+    "serving": "85ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 89,
+    "name_en": "Pineapple juice",
+    "name_cn": "菠蘿汁",
+    "macro": "CHO",
+    "serving": "75ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 90,
+    "name_en": "Grapefruit juice",
+    "name_cn": "西柚汁",
+    "macro": "CHO",
+    "serving": "100ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 91,
+    "name_en": "Tomato juice",
+    "name_cn": "番茄汁",
+    "macro": "CHO",
+    "serving": "240ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 92,
+    "name_en": "Prune juice",
+    "name_cn": "西梅汁",
+    "macro": "CHO",
+    "serving": "50ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 93,
+    "name_en": "Vegetable juice (V-8)",
+    "name_cn": "蔬菜汁(V-8)",
+    "macro": "CHO",
+    "serving": "280ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 94,
+    "name_en": "Lean meat (pork, beef, lamb, chicken, duck, goose)",
+    "name_cn": "瘦肉(豬/牛/羊/雞/鴨/鵝)",
+    "macro": "P",
+    "serving": "40g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 95,
+    "name_en": "Chicken egg",
+    "name_cn": "雞蛋",
+    "macro": "P",
+    "serving": "60g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 96,
+    "name_en": "Duck egg",
+    "name_cn": "鴨蛋",
+    "macro": "P",
+    "serving": "60g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 97,
+    "name_en": "Egg white",
+    "name_cn": "蛋白",
+    "macro": "P",
+    "serving": "75g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 98,
+    "name_en": "Fish fillet (raw)",
+    "name_cn": "魚柳",
+    "macro": "P",
+    "serving": "45g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 99,
+    "name_en": "Shrimp (raw)",
+    "name_cn": "蝦",
+    "macro": "P",
+    "serving": "85g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 100,
+    "name_en": "Scallops",
+    "name_cn": "帶子",
+    "macro": "P",
+    "serving": "40g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 101,
+    "name_en": "Large fish meat/belly",
+    "name_cn": "大魚肉/膘",
+    "macro": "P",
+    "serving": "45g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 102,
+    "name_en": "Salmon meat",
+    "name_cn": "鮭魚肉",
+    "macro": "P",
+    "serving": "40g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 103,
+    "name_en": "Salmon belly",
+    "name_cn": "鮭魚腩",
+    "macro": "P",
+    "serving": "50g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 104,
+    "name_en": "Ham",
+    "name_cn": "火腿",
+    "macro": "P",
+    "serving": "40g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 105,
+    "name_en": "Lobster meat",
+    "name_cn": "龍蝦",
+    "macro": "P",
+    "serving": "40g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 106,
+    "name_en": "Cheese",
+    "name_cn": "芝士",
+    "macro": "P",
+    "serving": "30g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 107,
+    "name_en": "Low-fat cheese",
+    "name_cn": "低脂芝士",
+    "macro": "P",
+    "serving": "30g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 108,
+    "name_en": "Tofu",
+    "name_cn": "豆腐",
+    "macro": "P",
+    "serving": "100g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 109,
+    "name_en": "Five-spice dried tofu",
+    "name_cn": "五香豆干",
+    "macro": "P",
+    "serving": "45g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 110,
+    "name_en": "Cooked soybeans",
+    "name_cn": "黃豆(熟)",
+    "macro": "P",
+    "serving": "42g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 111,
+    "name_en": "Vegetarian chicken",
+    "name_cn": "素雞",
+    "macro": "P",
+    "serving": "50g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 112,
+    "name_en": "Dried tofu skin",
+    "name_cn": "豆腐皮(乾)",
+    "macro": "P",
+    "serving": "15g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 113,
+    "name_en": "Dried bean curd sticks",
+    "name_cn": "枝竹(乾)",
+    "macro": "P",
+    "serving": "14g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 114,
+    "name_en": "Sweet dried bamboo",
+    "name_cn": "甜竹",
+    "macro": "P",
+    "serving": "27g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 115,
+    "name_en": "Baked gluten",
+    "name_cn": "烤麩",
+    "macro": "P",
+    "serving": "40g",
+    "energy": 70,
+    "protein": 7,
+    "fat": 5
+  },
+  {
+    "id": 116,
+    "name_en": "Vegetable oils (corn, peanut, rapeseed, tea-seed, olive, safflower)",
+    "name_cn": "粟米油/花生油/菜花子油/茶花子油/橄欖油/紅花子油",
+    "macro": "O",
+    "serving": "5ml",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 117,
+    "name_en": "Margarine",
+    "name_cn": "植物牛油",
+    "macro": "O",
+    "serving": "6g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 118,
+    "name_en": "Butter",
+    "name_cn": "牛油",
+    "macro": "O",
+    "serving": "6g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 119,
+    "name_en": "Salad dressing (Kraft/Tartar/Thousand Island)",
+    "name_cn": "沙律醬(卡夫奇妙醬/千島醬)",
+    "macro": "O",
+    "serving": "10g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 120,
+    "name_en": "Italian dressing",
+    "name_cn": "沙律醬(意大利酸味)",
+    "macro": "O",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 121,
+    "name_en": "Whipped cream",
+    "name_cn": "忌廉(打)",
+    "macro": "O",
+    "serving": "14g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 122,
+    "name_en": "Peanuts (with shell)",
+    "name_cn": "花生(連殻)",
+    "macro": "O",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 123,
+    "name_en": "Cashews",
+    "name_cn": "腰果",
+    "macro": "O",
+    "serving": "11g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 124,
+    "name_en": "Almonds",
+    "name_cn": "杏仁(去殻)",
+    "macro": "O",
+    "serving": "9g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 125,
+    "name_en": "Walnuts (with shell)",
+    "name_cn": "合桃(連殻)",
+    "macro": "O",
+    "serving": "15g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 126,
+    "name_en": "Pistachios (with shell)",
+    "name_cn": "開心果(連殼)",
+    "macro": "O",
+    "serving": "16g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 127,
+    "name_en": "Macadamia nuts",
+    "name_cn": "夏威夷果仁(去殼)",
+    "macro": "O",
+    "serving": "8g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 128,
+    "name_en": "Hazelnuts (with shell)",
+    "name_cn": "榛子(連殻)",
+    "macro": "O",
+    "serving": "22g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 129,
+    "name_en": "Melon seeds (with shell)",
+    "name_cn": "瓜子(連殻)",
+    "macro": "O",
+    "serving": "29g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 130,
+    "name_en": "Peanut butter",
+    "name_cn": "花生醬",
+    "macro": "O",
+    "serving": "9g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 131,
+    "name_en": "Sesame seeds",
+    "name_cn": "芝麻",
+    "macro": "O",
+    "serving": "10g",
+    "energy": 45,
+    "protein": 0,
+    "fat": 5
+  },
+  {
+    "id": 132,
+    "name_en": "Condensed milk",
+    "name_cn": "煉奶",
+    "macro": "CHO",
+    "serving": "18g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 133,
+    "name_en": "Ovaltine/Milo",
+    "name_cn": "阿華田/美祿",
+    "macro": "CHO",
+    "serving": "12g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 134,
+    "name_en": "Horlicks",
+    "name_cn": "好立克",
+    "macro": "CHO",
+    "serving": "15g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 135,
+    "name_en": "Chocolate milk",
+    "name_cn": "朱古力奶",
+    "macro": "CHO",
+    "serving": "85ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 136,
+    "name_en": "Lucozade/Grape drink",
+    "name_cn": "葡萄適",
+    "macro": "CHO",
+    "serving": "50ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 137,
+    "name_en": "Soda",
+    "name_cn": "汽水",
+    "macro": "CHO",
+    "serving": "120ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 138,
+    "name_en": "VitaSoy/Malt drink",
+    "name_cn": "維他奶/麥精",
+    "macro": "CHO",
+    "serving": "155ml",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 139,
+    "name_en": "Sugar/Glucose",
+    "name_cn": "白糖/葡萄糖",
+    "macro": "CHO",
+    "serving": "10g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 140,
+    "name_en": "Honey",
+    "name_cn": "蜜糖",
+    "macro": "CHO",
+    "serving": "13g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  },
+  {
+    "id": 141,
+    "name_en": "Ice cream",
+    "name_cn": "雪糕",
+    "macro": "CHO",
+    "serving": "45g",
+    "energy": 40,
+    "protein": 0,
+    "fat": 0
+  }
+]
