@@ -6,8 +6,15 @@
     <title>Food Exchange Planner</title>
     <!-- Manifest for PWA -->
     <link rel="manifest" href="manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="FoodPlanner" />
+    <meta name="application-name" content="Food Exchange Planner" />
     <!-- Theme color for address bar -->
     <meta name="theme-color" content="#2196f3" />
+    <link rel="apple-touch-icon" href="images/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="images/icon-512.png" />
     <!-- External stylesheet -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -17,6 +24,11 @@
       <p>Select foods for each daypart and track your macros.</p>
     </header>
     <main>
+      <div class="template-buttons">
+        <button id="template1200">1200kcal</button>
+        <button id="template1400">1400kcal</button>
+        <button id="template1800">1800kcal</button>
+      </div>
       <button id="addRowBtn">Add Item</button>
       <table id="planTable">
         <thead>
