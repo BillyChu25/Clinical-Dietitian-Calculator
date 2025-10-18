@@ -24,7 +24,6 @@ let macros = [];
 let defaultItemsByMacro = {};
 let templates = {};
 let templatesReady = false;
-let templateButtons = [];
 
 // Fetch the dataset and initialise UI
 fetch('food_exchange_dataset.json')
@@ -35,7 +34,6 @@ fetch('food_exchange_dataset.json')
     initMacrosAndDefaults();
     initializeTemplates();
     templatesReady = true;
-    setTemplateButtonsEnabled(true);
     // Add the first row on load for convenience
     addRow();
   })
@@ -127,10 +125,12 @@ function calculateTemplateEnergy(templateRows) {
 function addRow(daypart, macro, choice, portion) {
   const tbody = document.getElementById('planBody');
   const row = document.createElement('tr');
+  row.classList.add('plan-row');
 
   // Daypart cell
   const dayCell = document.createElement('td');
   const daySelect = document.createElement('select');
+  dayCell.dataset.label = 'Daypart';
   for (const [abbr, fullName] of Object.entries(dayparts)) {
     const opt = document.createElement('option');
     opt.value = abbr;
@@ -144,6 +144,7 @@ function addRow(daypart, macro, choice, portion) {
   // Macro cell
   const macroCell = document.createElement('td');
   const macroSelect = document.createElement('select');
+  macroCell.dataset.label = 'Macro';
   if (macros.length === 0) {
     const opt = document.createElement('option');
     opt.value = '';
@@ -164,6 +165,7 @@ function addRow(daypart, macro, choice, portion) {
   // Choice cell
   const choiceCell = document.createElement('td');
   const choiceSelect = document.createElement('select');
+  choiceCell.dataset.label = 'Choice';
   choiceCell.appendChild(choiceSelect);
   row.appendChild(choiceCell);
 
@@ -175,15 +177,19 @@ function addRow(daypart, macro, choice, portion) {
   portionInput.step = '0.1';
   const initialPortion = portion != null ? portion : 1;
   portionInput.value = initialPortion;
+  portionCell.dataset.label = 'Portion';
   portionCell.appendChild(portionInput);
   row.appendChild(portionCell);
 
   // Energy, Protein, Fat cells
   const energyCell = document.createElement('td');
+  energyCell.dataset.label = 'Energy (kcal)';
   energyCell.textContent = '0';
   const proteinCell = document.createElement('td');
+  proteinCell.dataset.label = 'Protein (g)';
   proteinCell.textContent = '0';
   const fatCell = document.createElement('td');
+  fatCell.dataset.label = 'Fat (g)';
   fatCell.textContent = '0';
   row.appendChild(energyCell);
   row.appendChild(proteinCell);
@@ -252,8 +258,9 @@ function populateChoices(selectEl, macro) {
   filtered.forEach((item) => {
     const opt = document.createElement('option');
     opt.value = item.id.toString();
-    // Show English name and simple_portion for clarity
-    opt.textContent = `${item.name_en} (${item.simple_portion})`;
+    const portionLabel = item.simpe_poriton || item.simple_portion || item.serving || '';
+    const suffix = portionLabel ? ` (${portionLabel})` : '';
+    opt.textContent = `${item.name_en}${suffix}`;
     selectEl.appendChild(opt);
   });
 }
@@ -322,9 +329,6 @@ function loadTemplate(template) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  templateButtons = Array.from(document.querySelectorAll('.template-buttons button'));
-  setTemplateButtonsEnabled(templatesReady);
-
   // Attach event listener to the add row button
   document.getElementById('addRowBtn').addEventListener('click', () => addRow());
 
@@ -334,18 +338,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('template1800').addEventListener('click', () => handleTemplateClick('1800'));
 });
 
-function setTemplateButtonsEnabled(enabled) {
-  if (!templateButtons.length) {
-    return;
-  }
-  templateButtons.forEach((btn) => {
-    btn.disabled = !enabled;
-  });
-}
-
 function handleTemplateClick(templateKey) {
   if (!templatesReady) {
-    console.warn('Templates are still loading. Please try again shortly.');
+    alert('Food data is still loading. Please try again in a moment.');
     return;
   }
   const template = templates[templateKey];
