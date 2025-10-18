@@ -1,7 +1,7 @@
 // Service worker for Food Exchange Planner PWA
 
 // Name of the cache for this version of the app
-const CACHE_NAME = 'food-exchange-planner-v1';
+const CACHE_NAME = 'food-exchange-planner-v2';
 
 // List of resources to pre-cache for offline use.  These paths are
 // relative to the root of the PWA when served.  If you add new
